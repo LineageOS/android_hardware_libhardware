@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAfH//+rs\u003d",
+        "filename": "include/hardware/camera.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2013-04-29T08:53:40Z",
+      "side": 1,
+      "message": "I would suggest HTC_3D_CAMERA (since this appears to be specific to HTC EVO 3D camera, we haven\u0027t seen another 3D camera require this function, and it\u0027s a do-nothing, as we don\u0027t actually know what it does.)",
+      "parentUuid": "AAAAfH//+uE\u003d",
+      "revId": "2e5aa2b46a913ce5cd72ad259c2b8a5360507372",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfH//+uA\u003d",
         "filename": "modules/gralloc/gralloc.cpp",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-04-29T08:22:21Z",
       "side": 1,
       "message": "What\u0027s 96?",
+      "revId": "2e5aa2b46a913ce5cd72ad259c2b8a5360507372",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfH//+rw\u003d",
+        "filename": "modules/gralloc/gralloc.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 3999
+      },
+      "writtenOn": "2013-04-29T08:53:40Z",
+      "side": 1,
+      "message": "Steve, do you have a suggestion for a MACRO name to give this format? None of us have any idea *what* format 96 is, other than 32-bit color.",
+      "parentUuid": "AAAAfH//+uA\u003d",
       "revId": "2e5aa2b46a913ce5cd72ad259c2b8a5360507372",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
