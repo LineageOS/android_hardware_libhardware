@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAfH//+rk\u003d",
+        "filename": "include/hardware/camera.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 2814
+      },
+      "writtenOn": "2013-04-29T08:59:46Z",
+      "side": 1,
+      "message": "thanks for stepping in, feel free to push your suggested change. I can get to this a little later tonight though as well so either or :)",
+      "parentUuid": "AAAAfH//+rs\u003d",
+      "revId": "2e5aa2b46a913ce5cd72ad259c2b8a5360507372",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfH//+uA\u003d",
         "filename": "modules/gralloc/gralloc.cpp",
         "patchSetId": 1
