@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_93d194fe",
+        "filename": "include/hardware/irda.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-29T19:12:24Z",
+      "side": 1,
+      "message": "Sorry, but this is _not_ documentation. It should be documented what the method does and what exactly the input parameters are supposed to mean. See e.g. camera.h for examples.",
+      "revId": "ecb9ab2971645c3194ae7ac7bcfa591f52531881",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_53dbfc1b",
+        "filename": "include/hardware/irda.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-29T19:12:24Z",
+      "side": 1,
+      "message": "Actually, the underscore naming convention (e.g. send_ircode) was OK here, as that\u0027s what other HAL modules use as well.",
+      "revId": "ecb9ab2971645c3194ae7ac7bcfa591f52531881",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
