@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_d3aa6c85",
+        "filename": "include/hardware/irda.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-29T16:34:24Z",
+      "side": 1,
+      "message": "This could use some documentation.",
+      "revId": "f654ef0d8afc25592d4454f96cd976ff1b346e73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
