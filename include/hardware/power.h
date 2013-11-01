@@ -65,11 +65,16 @@ typedef enum {
     POWER_HINT_SUSTAINED_PERFORMANCE = 0x00000006,
     POWER_HINT_VR_MODE = 0x00000007,
     POWER_HINT_LAUNCH = 0x00000008,
-    POWER_HINT_DISABLE_TOUCH = 0x00000009
+    POWER_HINT_DISABLE_TOUCH = 0x00000009,
+
+    // Custom Lineage hints
+    POWER_HINT_CPU_BOOST    = 0x00000110,
+    POWER_HINT_SET_PROFILE  = 0x00000111
 } power_hint_t;
 
 typedef enum {
-    POWER_FEATURE_DOUBLE_TAP_TO_WAKE = 0x00000001
+    POWER_FEATURE_DOUBLE_TAP_TO_WAKE = 0x00000001,
+    POWER_FEATURE_SUPPORTED_PROFILES = 0x00001000
 } feature_t;
 
 /*
@@ -257,6 +262,12 @@ typedef struct power_module {
      *     The data parameter is non-zero when touch could be disabled, and zero
      *     when touch needs to be re-enabled.
      *
+     * POWER_HINT_CPU_BOOST
+     *
+     *     An operation is happening where it would be ideal for the CPU to
+     *     be boosted for a specific duration. The data parameter is an
+     *     integer value of the boost duration in microseconds.
+     *
      * A particular platform may choose to ignore any hint.
      *
      * availability: version 0.2
@@ -278,6 +289,12 @@ typedef struct power_module {
      *
      */
     void (*setFeature)(struct power_module *module, feature_t feature, int state);
+
+    /*
+     * (*getFeature) is called to get the current value of a particular
+     * feature or capability from the hardware or PowerHAL
+     */
+    int (*getFeature)(struct power_module *module, feature_t feature);
 
     /*
      * Platform-level sleep state stats:
