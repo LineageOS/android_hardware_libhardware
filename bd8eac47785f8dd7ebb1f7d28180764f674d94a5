@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a29b11f_34c5f05a",
+        "filename": "include/hardware/audio_policy.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2013-11-21T12:01:14Z",
+      "side": 1,
+      "message": "Unnecessary change",
+      "revId": "bd8eac47785f8dd7ebb1f7d28180764f674d94a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a29b11f_d4a03ca8",
+        "filename": "include/hardware/audio_policy.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 424,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2013-11-21T12:01:14Z",
+      "side": 1,
+      "message": "same as above",
+      "revId": "bd8eac47785f8dd7ebb1f7d28180764f674d94a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
