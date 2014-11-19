@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "faac7902_db16bf54",
+        "filename": "include/hardware/lights.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-11-19T12:56:40Z",
+      "side": 1,
+      "message": "Are wimax \u0026 flashlight needed? I don\u0027t see any devices using them.\n\nAlso, edit to follow space indentation like the above entries",
+      "revId": "e1a58c079eba70a24357ed892e2980ef57ae7d25",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
