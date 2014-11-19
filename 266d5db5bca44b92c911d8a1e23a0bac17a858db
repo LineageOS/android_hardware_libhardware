@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "faac7902_26c1ae81",
+        "filename": "include/hardware/lights.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-11-19T13:56:17Z",
+      "side": 1,
+      "message": "Minor nitpick: comment is not spaced correctly",
+      "revId": "266d5db5bca44b92c911d8a1e23a0bac17a858db",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
