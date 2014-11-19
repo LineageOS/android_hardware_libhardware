@@ -143,6 +143,19 @@ enum {
     GRALLOC_USAGE_PRIVATE_2             = 0x40000000U,
     GRALLOC_USAGE_PRIVATE_3             = 0x80000000U,
     GRALLOC_USAGE_PRIVATE_MASK          = 0xF0000000U,
+
+#if defined(EXYNOS4_ENHANCEMENTS)
+    /* SAMSUNG */
+    GRALLOC_USAGE_PRIVATE_NONECACHE     = 0x00800000U,
+
+    GRALLOC_USAGE_HW_FIMC1              = 0x01000000U,
+    GRALLOC_USAGE_HW_ION                = 0x02000000U,
+    GRALLOC_USAGE_YUV_ADDR              = 0x04000000U,
+    GRALLOC_USAGE_CAMERA                = 0x08000000U,
+
+    /* SEC Private usage , for Overlay path at HWC */
+    GRALLOC_USAGE_HWC_HWOVERLAY         = 0x20000000U,
+#endif
 };
 
 /*****************************************************************************/
@@ -236,7 +249,6 @@ typedef struct gralloc_module_t {
     
     int (*unlock)(struct gralloc_module_t const* module,
             buffer_handle_t handle);
-
 
     /* reserved for future use */
     int (*perform)(struct gralloc_module_t const* module,
