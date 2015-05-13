@@ -148,8 +148,8 @@ enum {
     /* SAMSUNG */
     GRALLOC_USAGE_PRIVATE_NONECACHE     = 0x00800000,
 
-    GRALLOC_USAGE_HW_FIMC1              = 0x01000000,
-    GRALLOC_USAGE_HW_ION                = 0x02000000,
+    GRALLOC_USAGE_HW_ION                = 0x01000000,
+    GRALLOC_USAGE_HW_FIMC1              = 0x02000000,
     GRALLOC_USAGE_YUV_ADDR              = 0x04000000,
     GRALLOC_USAGE_CAMERA                = 0x08000000,
 
