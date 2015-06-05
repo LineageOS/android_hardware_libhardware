@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_8f097734",
+        "filename": "include/hardware/fingerprint.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-06-05T16:56:26Z",
+      "side": 1,
+      "message": "fix this",
+      "revId": "c49c18c328e26b4ff65e5429ac39872fecee909d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
