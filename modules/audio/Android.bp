@@ -61,3 +61,16 @@ cc_library_shared {
     ],
     cflags: ["-Wall", "-Werror", "-Wno-unused-parameter"],
 }
+
+// The stub audio amplifier HAL module that can be used as a skeleton for
+// new implementations.
+cc_library_shared {
+    name: "audio_amplifier.default",
+    relative_install_path: "hw",
+    proprietary: true,
+    srcs: ["audio_amplifier.c"],
+    shared_libs: [
+        "liblog",
+    ],
+    cflags: ["-Wall", "-Werror", "-Wno-unused-parameter"],
+}
