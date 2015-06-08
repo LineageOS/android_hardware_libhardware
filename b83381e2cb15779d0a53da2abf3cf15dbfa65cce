@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_205a3084",
+        "filename": "include/hardware/audio_amplifier.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-06-08T09:03:51Z",
+      "side": 1,
+      "message": "This is confusing.  The hw_module_t open function should pair with the amplifier_module close method.  I think this open is redundant.",
+      "revId": "b83381e2cb15779d0a53da2abf3cf15dbfa65cce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_806a2419",
+        "filename": "include/hardware/audio_amplifier.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-06-08T09:03:51Z",
+      "side": 1,
+      "message": "set a return value for each function",
+      "revId": "b83381e2cb15779d0a53da2abf3cf15dbfa65cce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_405f3c72",
+        "filename": "modules/audio/audio_amplifier.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-06-08T09:03:51Z",
+      "side": 1,
+      "message": "You could implement open \u0026 close",
+      "revId": "b83381e2cb15779d0a53da2abf3cf15dbfa65cce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
