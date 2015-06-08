@@ -86,6 +86,24 @@
       "revId": "b83381e2cb15779d0a53da2abf3cf15dbfa65cce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_40ed7c8a",
+        "filename": "modules/audio/audio_amplifier.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-08T09:46:10Z",
+      "side": 1,
+      "message": "There\u0027s not really anything that needs to be done in open and close.",
+      "parentUuid": "7a8ec9b2_405f3c72",
+      "revId": "b83381e2cb15779d0a53da2abf3cf15dbfa65cce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
