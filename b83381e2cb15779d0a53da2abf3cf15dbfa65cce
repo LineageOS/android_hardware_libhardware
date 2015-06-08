@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7a8ec9b2_e0eda88f",
+        "filename": "include/hardware/audio_amplifier.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-08T09:45:24Z",
+      "side": 1,
+      "message": "Yeah, I noted that also, will change.",
+      "parentUuid": "7a8ec9b2_205a3084",
+      "revId": "b83381e2cb15779d0a53da2abf3cf15dbfa65cce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a8ec9b2_806a2419",
         "filename": "include/hardware/audio_amplifier.h",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2015-06-08T09:03:51Z",
       "side": 1,
       "message": "set a return value for each function",
+      "revId": "b83381e2cb15779d0a53da2abf3cf15dbfa65cce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_00f37474",
+        "filename": "include/hardware/audio_amplifier.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-08T09:45:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a8ec9b2_806a2419",
       "revId": "b83381e2cb15779d0a53da2abf3cf15dbfa65cce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
