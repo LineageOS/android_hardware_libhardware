@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7a8ec9b2_c090acef",
+        "filename": "include/hardware/audio_amplifier.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-08T10:16:17Z",
+      "side": 1,
+      "message": "Typically close is defined by the hw_device_t object. I was hoping to make this similar to the power HAL and avoid the additional layer of indirection provided by the hw_device_t object.",
+      "parentUuid": "7a8ec9b2_608998ca",
+      "revId": "619fe5166c0a545f909367971595f6139e789bb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a8ec9b2_209f9004",
         "filename": "modules/audio/audio_amplifier.c",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2015-06-08T10:03:32Z",
       "side": 1,
       "message": "return 0;",
+      "revId": "619fe5166c0a545f909367971595f6139e789bb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_a093a0f9",
+        "filename": "modules/audio/audio_amplifier.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-08T10:16:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a8ec9b2_209f9004",
       "revId": "619fe5166c0a545f909367971595f6139e789bb2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
