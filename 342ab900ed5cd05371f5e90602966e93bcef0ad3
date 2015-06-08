@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_403adc37",
+        "filename": "include/hardware/audio_amplifier.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-06-08T07:43:53Z",
+      "side": 1,
+      "message": "I\u0027d rather see this as a HAL type interface where the audio HAL can try to load the amplifier HAL, and just ignore ops if it doesn\u0027t exist.  That way also allows implementations to not exist for functions that aren\u0027t necessary.",
+      "revId": "342ab900ed5cd05371f5e90602966e93bcef0ad3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
