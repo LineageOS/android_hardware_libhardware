@@ -52,6 +52,24 @@
       "revId": "342ab900ed5cd05371f5e90602966e93bcef0ad3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_200cf093",
+        "filename": "include/hardware/audio_amplifier.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-06-08T07:52:53Z",
+      "side": 1,
+      "message": "Or even use libhardware to try to load the HAL like any other HAL.",
+      "parentUuid": "7a8ec9b2_a049e0d2",
+      "revId": "342ab900ed5cd05371f5e90602966e93bcef0ad3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
