@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_608998ca",
+        "filename": "include/hardware/audio_amplifier.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-06-08T10:03:32Z",
+      "side": 1,
+      "message": "If you have init and shutdown, you should have a close to accompany the module open.",
+      "revId": "619fe5166c0a545f909367971595f6139e789bb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_209f9004",
+        "filename": "modules/audio/audio_amplifier.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-06-08T10:03:32Z",
+      "side": 1,
+      "message": "return 0;",
+      "revId": "619fe5166c0a545f909367971595f6139e789bb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
