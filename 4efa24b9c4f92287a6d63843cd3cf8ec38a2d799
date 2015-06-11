@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "9a57fde8_2f796930",
+        "filename": "include/hardware/audio_amplifier.h",
+        "patchSetId": 9
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-11T06:17:35Z",
+      "side": 1,
+      "message": "This function was originally designed for the legacy 8960 HAL. That passes AudioSystem::DEVICE_*\n\nhttps://github.com/CyanogenMod/android_hardware_libhardware_legacy/blob/cm-12.1/include/hardware_legacy/AudioSystemLegacy.h#L242\n\nThe problem is that the 8974 and 8960 implementations treat this wildly differently. We could split this by HAL version instead though.",
+      "parentUuid": "da4df55a_514bb459",
+      "revId": "4efa24b9c4f92287a6d63843cd3cf8ec38a2d799",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a629dbe_574b8c59",
         "filename": "modules/audio/audio_amplifier.c",
         "patchSetId": 9
