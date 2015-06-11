@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "da4df55a_514bb459",
+        "filename": "include/hardware/audio_amplifier.h",
+        "patchSetId": 9
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-06-11T05:51:08Z",
+      "side": 1,
+      "message": "Take a look at what calls this. It passes in a snd_device_t, which is defined by the QCOM HAL to be more fine grained than AUDIO_DEVICE_* that is defined in audio.h\n\nIn the usage of this, was it originally designed to pass in the stream_out.devices parameter?",
+      "parentUuid": "da4df55a_d11fa459",
+      "revId": "4efa24b9c4f92287a6d63843cd3cf8ec38a2d799",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a629dbe_574b8c59",
         "filename": "modules/audio/audio_amplifier.c",
         "patchSetId": 9
