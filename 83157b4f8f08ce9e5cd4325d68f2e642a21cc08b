@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba2be162_a8163ba5",
+        "filename": "include/hardware/fingerprint.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-06-20T05:04:53Z",
+      "side": 1,
+      "message": "these shouldn\u0027t be hardcoded. The implementation should define it\u0027s capabilities.",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 42
+      },
+      "revId": "83157b4f8f08ce9e5cd4325d68f2e642a21cc08b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
