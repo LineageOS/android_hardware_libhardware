@@ -39,6 +39,24 @@
       "revId": "83157b4f8f08ce9e5cd4325d68f2e642a21cc08b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1ff146_e45cdaef",
+        "filename": "include/hardware/fingerprint.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 9444
+      },
+      "writtenOn": "2015-06-24T05:16:21Z",
+      "side": 1,
+      "message": "I\u0027ll remove the name. The user can assign a name to a fingerprint and some vendors allow storing this name in their implementation, but I decided it would be better to keep meta-data global settings instead. This reduces dependency on the vendor and is and easier to test/manage.",
+      "parentUuid": "7a25e98e_0613ba5d",
+      "revId": "83157b4f8f08ce9e5cd4325d68f2e642a21cc08b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
