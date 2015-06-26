@@ -16,6 +16,24 @@
       "revId": "bba9dffeabbb3e42ce480c00a3813e95e99885af",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bff0334d_8978c1f8",
+        "filename": "modules/fingerprint/fingerprint.c",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-06-26T01:20:32Z",
+      "side": 1,
+      "message": "This is a stub implementation that can be used for the base of an actual HAL.",
+      "parentUuid": "bff0334d_490d198f",
+      "revId": "bba9dffeabbb3e42ce480c00a3813e95e99885af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
