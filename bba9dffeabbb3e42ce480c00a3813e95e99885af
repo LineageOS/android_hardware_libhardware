@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bff0334d_490d198f",
+        "filename": "modules/fingerprint/fingerprint.c",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2015-06-26T01:01:38Z",
+      "side": 1,
+      "message": "are the get and release methods here not supported or merely stubbed out for now?",
+      "revId": "bba9dffeabbb3e42ce480c00a3813e95e99885af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
