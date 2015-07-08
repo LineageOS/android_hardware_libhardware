@@ -22,6 +22,30 @@
       "revId": "40f34b57df536c666dffce5959b16817e779b89d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_c61a3816",
+        "filename": "include/hardware/fingerprint.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 9444
+      },
+      "writtenOn": "2015-07-08T21:57:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5ff73747_a6460c4f",
+      "range": {
+        "startLine": 203,
+        "startChar": 53,
+        "endLine": 203,
+        "endChar": 59
+      },
+      "revId": "40f34b57df536c666dffce5959b16817e779b89d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
