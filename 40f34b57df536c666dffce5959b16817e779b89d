@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_a6460c4f",
+        "filename": "include/hardware/fingerprint.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2015-07-08T15:45:45Z",
+      "side": 1,
+      "message": "typo. Can we also document the dynamic behavior when this returns -1?",
+      "range": {
+        "startLine": 203,
+        "startChar": 53,
+        "endLine": 203,
+        "endChar": 59
+      },
+      "revId": "40f34b57df536c666dffce5959b16817e779b89d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
