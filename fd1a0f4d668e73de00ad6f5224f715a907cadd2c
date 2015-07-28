@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_617a2c89",
+        "filename": "include/hardware/lights.h",
+        "patchSetId": 7
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-28T03:18:05Z",
+      "side": 1,
+      "message": "This doesn\u0027t really need to be here.",
+      "revId": "fd1a0f4d668e73de00ad6f5224f715a907cadd2c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf091321_21743499",
+        "filename": "include/hardware/lights.h",
+        "patchSetId": 7
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-28T03:18:05Z",
+      "side": 1,
+      "message": "Neither does this.",
+      "revId": "fd1a0f4d668e73de00ad6f5224f715a907cadd2c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
