@@ -154,8 +154,11 @@ struct light_state_t {
      *              + (150*((color>>8)&0x00ff)) + (29*(color&0x00ff))) >> 8;
      *   - If you can only do on or off, 0 is off, anything else is on.
      *
-     * The high byte should be ignored.  Callers will set it to 0xff (which
+     * The high byte can be ignored.  Callers will set it to 0xff (which
      * would correspond to 255 alpha).
+     *
+     * LineageOS: The high byte value can be implemented to control the LEDs
+     * brightness from the Lights settings. The value goes from 0x01 to 0xff.
      */
     unsigned int color;
 
