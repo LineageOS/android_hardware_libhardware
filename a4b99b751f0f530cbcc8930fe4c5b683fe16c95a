@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f436f4f_18276415",
+        "filename": "modules/audio_remote_submix/audio_hw.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 475,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2015-10-03T12:12:39Z",
+      "side": 0,
+      "message": "Probably no need to remove these as it will just create conflicts if upstream changes.",
+      "revId": "a4b99b751f0f530cbcc8930fe4c5b683fe16c95a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
