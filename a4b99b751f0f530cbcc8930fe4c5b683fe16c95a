@@ -16,6 +16,23 @@
       "revId": "a4b99b751f0f530cbcc8930fe4c5b683fe16c95a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_742a00e8",
+        "filename": "modules/audio_remote_submix/audio_hw.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 475,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-10-06T05:24:57Z",
+      "side": 0,
+      "message": "Ha this never worked then, this is checking definition originally.",
+      "revId": "a4b99b751f0f530cbcc8930fe4c5b683fe16c95a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
