@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f287b81_f1ade2ea",
+        "filename": "modules/audio_remote_submix/audio_hw.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1120,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-10-06T02:36:29Z",
+      "side": 1,
+      "message": "Do you actually need to do anything with the resampler? The way I\u0027m reading your description, this is a channel conversion problem only.",
+      "revId": "5952555537a7b6827aacd524d51af1e2db078fff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_d1aae6d0",
+        "filename": "modules/audio_remote_submix/audio_hw.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 1194,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-10-06T02:36:29Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be in an ENABLE_CHANNEL_CONVERSION ifdef?",
+      "revId": "5952555537a7b6827aacd524d51af1e2db078fff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
