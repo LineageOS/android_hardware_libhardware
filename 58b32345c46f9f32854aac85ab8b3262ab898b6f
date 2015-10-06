@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f287b81_74dc4018",
+        "filename": "modules/audio_remote_submix/audio_hw.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 11895
+      },
+      "writtenOn": "2015-10-06T04:31:31Z",
+      "side": 1,
+      "message": "Check the macro value, not if the macro is defined or not.",
+      "revId": "58b32345c46f9f32854aac85ab8b3262ab898b6f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
