@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f287b81_77c68219",
+        "filename": "modules/audio_remote_submix/audio_hw.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 1201,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-10-07T00:58:49Z",
+      "side": 1,
+      "message": "I think you need to increment input_stream_frame to account for multiple channels.",
+      "revId": "75e0a1400749f8c445fee3e9b1b746c91c55bcc3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
