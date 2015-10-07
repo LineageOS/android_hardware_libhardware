@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f287b81_d7d656c4",
+        "filename": "modules/audio_remote_submix/audio_hw.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 1199,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-10-07T01:05:52Z",
+      "side": 1,
+      "message": "Don\u0027t follow the bad spacing of the original resampled_buffer[input_stream_frame] \u003d ...; line, properly indent this.",
+      "revId": "ad55a622efa063d2a473ca67b8bce95d1d44555c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
