@@ -22,6 +22,74 @@
       "revId": "2f160115fef7ab1a77e2057cf658fb8882491387",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_771322ba",
+        "filename": "modules/audio_remote_submix/audio_hw.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 1109,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-10-07T00:36:47Z",
+      "side": 1,
+      "message": "I would have put this above line 1092 to keep the variable grouping.",
+      "revId": "2f160115fef7ab1a77e2057cf658fb8882491387",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_17129eb2",
+        "filename": "modules/audio_remote_submix/audio_hw.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 1142,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-10-07T00:36:47Z",
+      "side": 1,
+      "message": "Could also do:\n\nread_frames \u003d min(read_frames, processor_buffer_size_frames / 2);",
+      "revId": "2f160115fef7ab1a77e2057cf658fb8882491387",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_17873eda",
+        "filename": "modules/audio_remote_submix/audio_hw.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 1201,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-10-07T00:36:47Z",
+      "side": 1,
+      "message": "Don\u0027t you need to increment the input_stream_frame by the channel count?",
+      "revId": "2f160115fef7ab1a77e2057cf658fb8882491387",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_37823aca",
+        "filename": "modules/audio_remote_submix/audio_hw.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 1202,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-10-07T00:36:47Z",
+      "side": 1,
+      "message": "Did you mean to remove this line?",
+      "revId": "2f160115fef7ab1a77e2057cf658fb8882491387",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
