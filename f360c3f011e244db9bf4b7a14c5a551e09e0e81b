@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f2577a7_47dcf245",
+        "filename": "include/hardware/hwcomposer_defs.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-10-21T07:26:07Z",
+      "side": 1,
+      "message": "QTI_BSP",
+      "range": {
+        "startLine": 223,
+        "startChar": 1,
+        "endLine": 223,
+        "endChar": 6
+      },
+      "revId": "f360c3f011e244db9bf4b7a14c5a551e09e0e81b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
