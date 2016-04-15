@@ -561,8 +561,8 @@ static inline size_t audio_stream_frame_size(const struct audio_stream *s)
             chan_samp_sz = sizeof(int8_t);
             break;
         }
-        return popcount(chan_mask) * chan_samp_sz;
     }
+    return popcount(chan_mask) * chan_samp_sz;
 #else
     audio_format_t format = s->get_format(s);
 
