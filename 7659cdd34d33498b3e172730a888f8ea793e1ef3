@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_6d021bb7",
+        "filename": "modules/sensors/multihal.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-08-30T15:52:56Z",
+      "side": 1,
+      "message": "How about just adding the single line?\n\n  delete so_paths;",
+      "revId": "7659cdd34d33498b3e172730a888f8ea793e1ef3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
