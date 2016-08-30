@@ -16,6 +16,24 @@
       "revId": "7659cdd34d33498b3e172730a888f8ea793e1ef3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_6d1bfb1a",
+        "filename": "modules/sensors/multihal.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 341
+      },
+      "writtenOn": "2016-08-30T16:23:10Z",
+      "side": 1,
+      "message": "It will serve the purpose. However, we do not need a heap based allocation for this",
+      "parentUuid": "1fa4df85_6d021bb7",
+      "revId": "7659cdd34d33498b3e172730a888f8ea793e1ef3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
