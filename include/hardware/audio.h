@@ -112,6 +112,10 @@ __BEGIN_DECLS
 /* Bluetooth SCO wideband */
 #define AUDIO_PARAMETER_KEY_BT_SCO_WB "bt_wbs"
 
+
+/* Device state*/
+#define AUDIO_PARAMETER_KEY_DEV_SHUTDOWN "dev_shutdown"
+
 /* Get a new HW synchronization source identifier.
  * Return a valid source (positive integer) or AUDIO_HW_SYNC_INVALID if an error occurs
  * or no HW sync is available. */
