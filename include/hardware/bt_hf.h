@@ -169,7 +169,6 @@ typedef void (* bthf_bind_cmd_callback)(char* hf_ind, bthf_bind_type_t type, bt_
  */
 typedef void (* bthf_biev_cmd_callback)(char* hf_ind_val, bt_bdaddr_t *bd_addr);
 
-
 /** BT-HF callback structure. */
 typedef struct {
     /** set to sizeof(BtHfCallbacks) */
