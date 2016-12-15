@@ -112,6 +112,10 @@ __BEGIN_DECLS
 /* Bluetooth SCO wideband */
 #define AUDIO_PARAMETER_KEY_BT_SCO_WB "bt_wbs"
 
+
+/* Device state*/
+#define AUDIO_PARAMETER_KEY_DEV_SHUTDOWN "dev_shutdown"
+
 /* Get a new HW synchronization source identifier.
  * Return a valid source (positive integer) or AUDIO_HW_SYNC_INVALID if an error occurs
  * or no HW sync is available. */
@@ -253,7 +257,8 @@ typedef struct audio_stream audio_stream_t;
 /* type of asynchronous write callback events. Mutually exclusive */
 typedef enum {
     STREAM_CBK_EVENT_WRITE_READY, /* non blocking write completed */
-    STREAM_CBK_EVENT_DRAIN_READY  /* drain completed */
+    STREAM_CBK_EVENT_DRAIN_READY,  /* drain completed */
+    STREAM_CBK_EVENT_ERROR, /* stream hit some error, let AF take action */
 } stream_callback_event_t;
 
 typedef int (*stream_callback_t)(stream_callback_event_t event, void *param, void *cookie);
