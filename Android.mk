@@ -4,6 +4,8 @@
 SUBDIR_MAKEFILES := $(call all-named-subdir-makefiles,modules tests)
 
 LOCAL_PATH:= $(call my-dir)
+
+ifneq ($(TARGET_PROVIDES_LIBHARDWARE),true)
 include $(CLEAR_VARS)
 
 LOCAL_SHARED_LIBRARIES := libcutils liblog
@@ -20,5 +22,6 @@ LOCAL_SRC_FILES += hardware.c
 LOCAL_MODULE:= libhardware
 
 include $(BUILD_SHARED_LIBRARY)
+endif # TARGET_PROVIDES_LIBHARDWARE
 
 include $(SUBDIR_MAKEFILES)
