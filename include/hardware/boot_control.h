@@ -64,6 +64,15 @@ typedef struct boot_control_module {
     unsigned (*getNumberSlots)(struct boot_control_module *module);
 
     /*
+     * (*getNextSlot)() returns the next slot that will be booted.
+     * This is more useful than using the opposite slot that is
+     * returned by (*getCurrentSlot)() because if a flash fails,
+     * the slot will be set to the slot that wasn't flashed to,
+     * in order to avoid any issues occuring from a failed flash.
+     */
+    unsigned (*getNextSlot)(struct boot_control_module *module);
+
+    /*
      * (*getCurrentSlot)() returns the value letting the system know
      * whether the current slot is A or B. The meaning of A and B is
      * left up to the implementer. It is assumed that if the current slot
