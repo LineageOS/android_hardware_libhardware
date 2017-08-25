@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5727fa8d_6b3e74d1",
+        "filename": "include/hardware/power.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-08-25T21:26:08Z",
+      "side": 1,
+      "message": "These 2 should be removed, check cm-14.1",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 41
+      },
+      "revId": "4cbdbecedd6d7604dfc0e6dadb6668767c4cc1c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
