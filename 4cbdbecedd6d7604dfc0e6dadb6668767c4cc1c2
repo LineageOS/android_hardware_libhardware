@@ -22,6 +22,30 @@
       "revId": "4cbdbecedd6d7604dfc0e6dadb6668767c4cc1c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9b9e29d7_00532419",
+        "filename": "include/hardware/power.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2017-08-25T21:40:14Z",
+      "side": 1,
+      "message": "Should be ok to remove launch_boost_info struct below too then?",
+      "parentUuid": "5727fa8d_6b3e74d1",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 41
+      },
+      "revId": "4cbdbecedd6d7604dfc0e6dadb6668767c4cc1c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
