@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e0e53d16_37d75a51",
+        "filename": "include/hardware/power.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-08-28T08:58:42Z",
+      "side": 1,
+      "message": "Rename to \"Custom Lineage hints\" or something?",
+      "range": {
+        "startLine": 70,
+        "startChar": 7,
+        "endLine": 70,
+        "endChar": 15
+      },
+      "revId": "f31f33693d8ccc262491cab547d6fba55a220128",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
