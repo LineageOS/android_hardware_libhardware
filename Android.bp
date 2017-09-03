@@ -25,6 +25,14 @@ cc_library_shared {
         "libdl",
         "libvndksupport",
     ],
+    product_variables: {
+        lineage: {
+	    exynos4_enhancements: {
+	        cppflags: ["-DEXYNOS4_ENHANCEMENTS"],
+	    },
+        },
+
+    },
     cflags: ["-DQEMU_HARDWARE"],
 
     header_libs: ["libhardware_headers"],
