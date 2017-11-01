@@ -465,6 +465,8 @@ typedef enum {
     KM_ERROR_VERSION_MISMATCH = -101,
 
     KM_ERROR_UNKNOWN_ERROR = -1000,
+
+    KM_ERROR_SOTER_ERROR = -10000,
 } keymaster_error_t;
 
 /* Convenience functions for manipulating keymaster tag types */
