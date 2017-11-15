@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2d4f665c_c35cc79e",
+        "filename": "include/hardware/lights.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-11-15T09:06:02Z",
+      "side": 1,
+      "message": "Why not replace this, since it doesn\u0027t make sense after adding your comment?",
+      "range": {
+        "startLine": 157,
+        "startChar": 7,
+        "endLine": 158,
+        "endChar": 38
+      },
+      "revId": "01f86db325f536d783a8c03d5855e6244f358fe6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
