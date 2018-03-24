@@ -36,7 +36,8 @@ __BEGIN_DECLS
 
 #define AMPLIFIER_DEVICE_API_VERSION_1_0 HARDWARE_DEVICE_API_VERSION(1, 0)
 #define AMPLIFIER_DEVICE_API_VERSION_2_0 HARDWARE_DEVICE_API_VERSION(2, 0)
-#define AMPLIFIER_DEVICE_API_VERSION_CURRENT AMPLIFIER_DEVICE_API_VERSION_2_0
+#define AMPLIFIER_DEVICE_API_VERSION_2_1 HARDWARE_DEVICE_API_VERSION(2, 1)
+#define AMPLIFIER_DEVICE_API_VERSION_CURRENT AMPLIFIER_DEVICE_API_VERSION_2_1
 
 struct str_parms;
 
@@ -109,9 +110,21 @@ typedef struct amplifier_device {
             struct audio_stream_in *stream);
 
     /**
-     * set/get output audio device parameters.
+     * set/get audio device parameters.
      */
     int (*set_parameters)(struct amplifier_device *device,
+        struct str_parms *parms);
+
+    /**
+     * set/get output stream parameters.
+     */
+    int (*out_set_parameters)(struct amplifier_device *device,
+        struct str_parms *parms);
+
+    /**
+     * set/get input stream parameters.
+     */
+    int (*in_set_parameters)(struct amplifier_device *device,
         struct str_parms *parms);
 } amplifier_device_t;
 
