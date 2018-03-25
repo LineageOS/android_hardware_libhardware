@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f54e976_6cf94d02",
+        "filename": "include/hardware/audio_amplifier.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2018-03-25T20:18:08Z",
+      "side": 0,
+      "message": "probably don\u0027t need to change here, but yeah, updating the comment is more correct",
+      "range": {
+        "startLine": 112,
+        "startChar": 15,
+        "endLine": 112,
+        "endChar": 21
+      },
+      "revId": "fb16fbcbb8fe962483b59e7bd96028cc0ed1f112",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
