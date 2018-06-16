@@ -155,7 +155,7 @@ typedef enum {
     GRALLOC1_FUNCTION_UNLOCK = 20,
     GRALLOC1_FUNCTION_SET_LAYER_COUNT = 21,
     GRALLOC1_FUNCTION_GET_LAYER_COUNT = 22,
-    GRALLOC1_LAST_FUNCTION = 22,
+    GRALLOC1_LAST_FUNCTION = 23,
 } gralloc1_function_descriptor_t;
 
 typedef enum {
