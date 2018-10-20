@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dff02c27_70d5f6e0",
+        "filename": "include/hardware/bt_av.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2018-10-20T10:35:07Z",
+      "side": 1,
+      "message": "No need to change these lines besides adding the comma on the third one.",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 54
+      },
+      "revId": "13dc123fb3538c2567b0fbd5fb97227d9dfc8373",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
