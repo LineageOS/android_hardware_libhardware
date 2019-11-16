@@ -279,6 +279,8 @@ typedef enum {
      * layer would be. The client may ignore this request if the layer must be
      * blended. */
     HWC2_LAYER_REQUEST_CLEAR_CLIENT_TARGET = 1 << 0,
+    HWC2_LAYER_REQUEST_HINT_COMPOSITION_DEVICE_OVERLAY = 1 << 1,
+    HWC2_LAYER_REQUEST_HINT_LOW_LATENCY = 1 << 2,
 } hwc2_layer_request_t;
 
 /* Power modes for use with setPowerMode */
@@ -532,6 +534,8 @@ static inline const char* getLayerRequestName(hwc2_layer_request_t request) {
     switch (__BIONIC_CAST(static_cast, int, request)) {
         case 0: return "None";
         case HWC2_LAYER_REQUEST_CLEAR_CLIENT_TARGET: return "ClearClientTarget";
+        case HWC2_LAYER_REQUEST_HINT_COMPOSITION_DEVICE_OVERLAY: return "HintCompositionDeviceOverlay";
+        case HWC2_LAYER_REQUEST_HINT_LOW_LATENCY: return "HintLowLatency";
         default: return "Unknown";
     }
 }
@@ -728,6 +732,8 @@ TO_STRING(hwc2_function_descriptor_t, FunctionDescriptor,
 
 enum class LayerRequest : int32_t {
     ClearClientTarget = HWC2_LAYER_REQUEST_CLEAR_CLIENT_TARGET,
+    HintCompositionDeviceOverlay = HWC2_LAYER_REQUEST_HINT_COMPOSITION_DEVICE_OVERLAY,
+    HintLowLatency = HWC2_LAYER_REQUEST_HINT_LOW_LATENCY,
 };
 TO_STRING(hwc2_layer_request_t, LayerRequest, getLayerRequestName)
 
