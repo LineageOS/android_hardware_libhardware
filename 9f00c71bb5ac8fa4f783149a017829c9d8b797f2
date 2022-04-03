@@ -34,6 +34,24 @@
       "parentUuid": "2a1d6057_efed200e",
       "revId": "9f00c71bb5ac8fa4f783149a017829c9d8b797f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "260f1884_9ab9d0b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28232
+      },
+      "writtenOn": "2022-04-03T18:00:46Z",
+      "side": 1,
+      "message": "I understand using dup rules is an option but I am trying to eliminate the flag as it\u0027s not used/recommended in stock.\n\nJust thought of seeking suggestions.",
+      "parentUuid": "2a1d6057_efed200e",
+      "revId": "9f00c71bb5ac8fa4f783149a017829c9d8b797f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
