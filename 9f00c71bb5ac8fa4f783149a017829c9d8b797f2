@@ -52,6 +52,24 @@
       "parentUuid": "2a1d6057_efed200e",
       "revId": "9f00c71bb5ac8fa4f783149a017829c9d8b797f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2aea0855_1b2f1f13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28232
+      },
+      "writtenOn": "2022-04-03T18:03:20Z",
+      "side": 1,
+      "message": "Ah.. Thanks a lot. This would work perfectly. ALso, do you have a similar suggestion for c/328040?",
+      "parentUuid": "260f1884_9ab9d0b5",
+      "revId": "9f00c71bb5ac8fa4f783149a017829c9d8b797f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
