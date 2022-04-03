@@ -16,6 +16,24 @@
       "message": "or just accept broken dup rules?",
       "revId": "9f00c71bb5ac8fa4f783149a017829c9d8b797f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ae09006_a6500241",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2022-04-03T17:59:49Z",
+      "side": 1,
+      "message": "Or rename the custom module; https://github.com/LineageOS/android_device_asus_sake/commit/301704f32df0a552ff2aac8c9c2f5e9cf11290d6",
+      "parentUuid": "2a1d6057_efed200e",
+      "revId": "9f00c71bb5ac8fa4f783149a017829c9d8b797f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
