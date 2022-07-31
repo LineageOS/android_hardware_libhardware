@@ -96,6 +96,12 @@ static int amp_in_set_parameters(struct amplifier_device *device,
     return 0;
 }
 
+static int amp_set_feedback(struct amplifier_device *device,
+        void *adev, uint32_t devices, bool enable)
+{
+    return 0;
+}
+
 static int amp_dev_close(hw_device_t *device)
 {
     if (device)
