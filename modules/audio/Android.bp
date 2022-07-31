@@ -78,7 +78,11 @@ cc_library_shared {
     relative_install_path: "hw",
     proprietary: true,
     srcs: ["audio_amplifier.c"],
+    header_libs: [
+        "libhardware_headers",
+    ],
     shared_libs: [
+        "libcutils",
         "liblog",
     ],
     cflags: ["-Wall", "-Werror", "-Wno-unused-parameter"],
