@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34c16512_3980915b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2022-10-10T17:34:37Z",
+      "side": 1,
+      "message": "Don\u0027t forget to pick this series to 20.0",
+      "revId": "d05ce0065b8147d05adf0d68c8a182ebbe668d27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
