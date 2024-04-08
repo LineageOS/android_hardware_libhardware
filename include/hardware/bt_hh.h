@@ -151,7 +151,7 @@ typedef struct {
     bt_status_t (*connect)( bt_bdaddr_t *bd_addr);
 
     /** dis-connect from hid device */
-    bt_status_t (*disconnect)( bt_bdaddr_t *bd_addr );
+    bt_status_t (*disconnect)( bt_bdaddr_t *bd_addr, bool reconnect_allowed);
 
     /** Virtual UnPlug (VUP) the specified HID device */
     bt_status_t (*virtual_unplug)(bt_bdaddr_t *bd_addr);
