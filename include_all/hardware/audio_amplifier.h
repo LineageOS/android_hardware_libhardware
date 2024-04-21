@@ -113,7 +113,7 @@ typedef struct amplifier_device {
      * set/get audio device parameters.
      */
     int (*set_parameters)(struct amplifier_device *device,
-        struct str_parms *parms);
+        void *adev, struct str_parms *parms);
 
     /**
      * set/get output stream parameters.
