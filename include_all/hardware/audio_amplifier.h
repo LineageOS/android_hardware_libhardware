@@ -55,14 +55,14 @@ typedef struct amplifier_device {
      *
      * This function should handle only input devices.
      */
-    int (*set_input_devices)(struct amplifier_device *device, uint32_t devices);
+    int (*set_input_devices)(struct amplifier_device *device, void *adev, uint32_t devices);
 
     /**
      * Notify amplifier device of current output devices
      *
      * This function should handle only output devices.
      */
-    int (*set_output_devices)(struct amplifier_device *device, uint32_t devices);
+    int (*set_output_devices)(struct amplifier_device *device, void *adev, uint32_t devices);
 
     /**
      * Notify amplifier device of output device enable/disable
