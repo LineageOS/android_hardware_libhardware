@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5618d9f8_99a56fda",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-04-22T20:45:59Z",
+      "side": 1,
+      "message": "Note I verified this with msm8998 and sm8150; sm8250, sm8350 and hardware/sony has picks ready to go as well, but I don\u0027t have the devices to test those",
+      "revId": "ce3f95119cad3004f2dfce60c84c59c746edc9bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
