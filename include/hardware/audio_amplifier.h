@@ -1,1 +1,1 @@
-include_all/hardware/audio_amplifier.h
+../../include_all/hardware/audio_amplifier.h
