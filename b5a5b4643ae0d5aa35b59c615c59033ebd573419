@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dabf7c13_704f12f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-12-21T16:17:03Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_google_sunfish/+/412240",
+      "revId": "b5a5b4643ae0d5aa35b59c615c59033ebd573419",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
