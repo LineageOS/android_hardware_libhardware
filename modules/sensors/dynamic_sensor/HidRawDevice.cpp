@@ -160,6 +160,7 @@ bool HidRawDevice::populateDeviceInfo() {
 
 bool HidRawDevice::generateDigest(const std::unordered_set<unsigned int> &usage) {
     if (mDeviceInfo.descriptor.empty()) {
+        LOG_E << "HidRawDevice::generateDigest: descriptor is empty" << LOG_ENDL;
         return false;
     }
 
