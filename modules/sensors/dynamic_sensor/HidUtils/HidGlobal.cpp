@@ -95,6 +95,7 @@ bool HidGlobal::append(const HidItem &i) {
 bool HidGlobalStack::append(const HidItem &i) {
     using namespace HidDef::TagType;
     if (i.type != GLOBAL) {
+        LOG_E << "HidGlobalStack::append cannot process tag that is not global, " << i << LOG_ENDL;
         return false;
     }
 
@@ -104,6 +105,7 @@ bool HidGlobalStack::append(const HidItem &i) {
     } else if (i.tag == POP) {
         mStack.pop_back();
         if (mStack.size() == 0) {
+            LOG_E << "HidGlobalStack::append: tried to pop on empty stack" << LOG_ENDL;
             mStack.push_back(HidGlobal()); // fail-safe
             ret = false;
         }
