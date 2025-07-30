@@ -50,7 +50,7 @@ static struct {
     {SW_MUTE_DEVICE, INPUT_USAGE_SWITCH_UNKNOWN},
     {SW_PEN_INSERTED, INPUT_USAGE_SWITCH_UNKNOWN},
     {SW_MACHINE_COVER, INPUT_USAGE_SWITCH_UNKNOWN},
-    {0x11 /* unused */, INPUT_USAGE_SWITCH_UNKNOWN},
+    {SW_USB_INSERT, INPUT_USAGE_SWITCH_UNKNOWN},
     {0x12 /* unused */, INPUT_USAGE_SWITCH_UNKNOWN},
     {0x13 /* unused */, INPUT_USAGE_SWITCH_UNKNOWN},
     {0x14 /* unused */, INPUT_USAGE_SWITCH_UNKNOWN},
@@ -68,10 +68,11 @@ static struct {
     {0x20 /* unused */, INPUT_USAGE_SWITCH_UNKNOWN},
 };
 
-static_assert(SW_MAX == SW_MACHINE_COVER, "SW_MAX is not SW_MACHINE_COVER");
+static_assert(SW_MAX == SW_USB_INSERT, "SW_MAX is not SW_USB_INSERT");
 
 // This is the max value that any kernel has ever used. The v5.4 kernels
-// increased SW_MAX to 0x20, while v5.8 decreased the value to 0x10.
+// increased SW_MAX to 0x20, while v5.8 decreased the value to 0x10. The
+// v6.16 kernels increased this value to 0x11.
 static constexpr int32_t kMaxNumInputCodes = 0x21;
 
 SwitchInputMapper::SwitchInputMapper()
