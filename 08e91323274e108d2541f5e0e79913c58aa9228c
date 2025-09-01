@@ -34,6 +34,23 @@
       "parentUuid": "6e0a5387_4ad47a17",
       "revId": "08e91323274e108d2541f5e0e79913c58aa9228c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d45bcdb0_ee62fcbe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-09-01T07:13:50Z",
+      "side": 1,
+      "message": "but sdm660 hal uses that directly, and it\u0027s in the manifest, so I guess it\u0027s good.",
+      "revId": "08e91323274e108d2541f5e0e79913c58aa9228c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
