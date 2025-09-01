@@ -52,6 +52,24 @@
       "parentUuid": "dca18d4d_d266b3b4",
       "revId": "dd2391995d66867571e3cdaa6ca7420b9e8c4f17",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "047b2467_54f5c8bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-09-01T07:30:01Z",
+      "side": 1,
+      "message": "Yes, but that\u0027s guarded under QTI_BSP, which is not set since like msm8974",
+      "parentUuid": "dca18d4d_d266b3b4",
+      "revId": "dd2391995d66867571e3cdaa6ca7420b9e8c4f17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
