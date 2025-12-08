@@ -39,18 +39,24 @@ bool HidParser::parse(const std::vector<HidItem> &token) {
         switch (i.type) {
             case MAIN:
                 ret = processMainTag(i);
+                // processMainTag logs its own errors if ret becomes false
                 break;
             case GLOBAL:
-                ret = mGlobalStack.append(i);
+                if (!mGlobalStack.append(i)) {
+                    LOG_E << "HidParser: Failed to append global item: " << i << LOG_ENDL;
+                    ret = false;
+                }
                 break;
             case LOCAL:
-                ret = mLocal.append(i);
+                if (!mLocal.append(i)) {
+                    LOG_E << "HidParser: Failed to append local item: " << i << LOG_ENDL;
+                    ret = false;
+                }
                 break;
             default:
-                LOG_E << "HidParser found illegal HidItem: " << i << LOG_ENDL;
+                LOG_E << "HidParser found unexpected HidItem: " << i << LOG_ENDL;
                 ret = false;
         }
-
         // in case a parse failure, quit prematurely
         if (!ret) {
             break;
@@ -131,6 +137,12 @@ bool HidParser::processMainTag(const HidItem &i) {
 
 bool HidParser::parse(const unsigned char *begin, size_t size) {
     std::vector<HidItem> hidItemVector = HidItem::tokenize(begin, size);
+    // If tokenization results in an empty vector for a non-empty input, it's an error.
+    // An empty descriptor (size == 0) correctly tokenizes to an empty vector.
+    if (hidItemVector.empty() && (begin != nullptr && size > 0)) {
+        LOG_E << "HidParser: tokenize produced empty vector for non-empty input size "
+              << size << LOG_ENDL;
+    }
     return parse(hidItemVector);
 }
 
