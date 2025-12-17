@@ -102,7 +102,6 @@ int Metadata::FillStaticMetadata(android::CameraMetadata* metadata) {
     return -ENODEV;
   }
 
-  // TODO(b/31018853): cache result.
   return 0;
 }
 
@@ -158,7 +157,6 @@ int Metadata::GetRequestTemplate(int template_type,
     }
   }
 
-  // TODO(b/31018853): cache result.
   return 0;
 }
 
