@@ -92,6 +92,7 @@ cc_library_headers {
 
 }
 
+// Delete me and/or remove from Android system. Keep as implementation detail of the vendor.img.
 cc_library_shared {
     name: "libhardware",
 
