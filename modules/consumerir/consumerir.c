@@ -89,6 +89,9 @@ static int consumerir_open(const hw_module_t* module, const char* name,
     }
 
     consumerir_device_t *dev = malloc(sizeof(consumerir_device_t));
+    if (dev == NULL) {
+        return -ENOMEM;
+    }
     memset(dev, 0, sizeof(consumerir_device_t));
 
     dev->common.tag = HARDWARE_DEVICE_TAG;
