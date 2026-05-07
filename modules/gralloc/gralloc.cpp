@@ -299,6 +299,9 @@ int gralloc_device_open(const hw_module_t* module, const char* name,
     if (!strcmp(name, GRALLOC_HARDWARE_GPU0)) {
         gralloc_context_t *dev;
         dev = (gralloc_context_t*)malloc(sizeof(*dev));
+        if (dev == NULL) {
+            return -ENOMEM;
+        }
 
         /* initialize our state here */
         memset(dev, 0, sizeof(*dev));

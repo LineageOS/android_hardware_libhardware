@@ -854,8 +854,12 @@ static ssize_t out_write(struct audio_stream_out *stream, const void* buffer, si
                      bytes * num_device_channels / num_req_channels;
             if (required_conversion_buffer_size > out->conversion_buffer_size) {
                 out->conversion_buffer_size = required_conversion_buffer_size;
-                out->conversion_buffer = realloc(out->conversion_buffer,
-                                                 out->conversion_buffer_size);
+                void *tmp = realloc(out->conversion_buffer,
+                                    out->conversion_buffer_size);
+                if (tmp == NULL) {
+                    return -ENOMEM;
+                }
+                out->conversion_buffer = tmp;
             }
             /* convert data */
             const audio_format_t audio_format = out_get_format(&(out->stream.common));
@@ -1323,7 +1327,11 @@ static ssize_t in_read(struct audio_stream_in *stream, void* buffer, size_t byte
             /*TODO Remove this when AudioPolicyManger/AudioFlinger support arbitrary formats
               (and do these conversions themselves) */
             in->conversion_buffer_size = num_read_buff_bytes;
-            in->conversion_buffer = realloc(in->conversion_buffer, in->conversion_buffer_size);
+            void *tmp = realloc(in->conversion_buffer, in->conversion_buffer_size);
+            if (tmp == NULL) {
+                return -ENOMEM;
+            }
+            in->conversion_buffer = tmp;
         }
         read_buff = in->conversion_buffer;
     }

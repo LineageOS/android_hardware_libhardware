@@ -321,6 +321,9 @@ int fb_device_open(hw_module_t const* module, const char* name,
     if (!strcmp(name, GRALLOC_HARDWARE_FB0)) {
         /* initialize our state here */
         fb_context_t *dev = (fb_context_t*)malloc(sizeof(*dev));
+        if (dev == NULL) {
+            return -ENOMEM;
+        }
         memset(dev, 0, sizeof(*dev));
 
         /* initialize the procs */

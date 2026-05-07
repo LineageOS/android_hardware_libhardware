@@ -81,6 +81,9 @@ static int nfc_open(const hw_module_t* module, const char* name,
     if (strcmp(name, NFC_NCI_CONTROLLER) == 0) {
         nfc_nci_device_t *dev = static_cast<nfc_nci_device_t*>(
                 calloc(1, sizeof(nfc_nci_device_t)));
+        if (dev == NULL) {
+            return -ENOMEM;
+        }
 
         dev->common.tag = HARDWARE_DEVICE_TAG;
         dev->common.version = 0x00010000; // [31:16] major, [15:0] minor
