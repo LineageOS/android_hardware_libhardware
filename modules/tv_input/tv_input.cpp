@@ -117,6 +117,9 @@ static int tv_input_device_open(const struct hw_module_t* module,
     int status = -EINVAL;
     if (!strcmp(name, TV_INPUT_DEFAULT_DEVICE)) {
         tv_input_private_t* dev = (tv_input_private_t*)malloc(sizeof(*dev));
+        if (dev == NULL) {
+            return -ENOMEM;
+        }
 
         /* initialize our state here */
         memset(dev, 0, sizeof(*dev));
