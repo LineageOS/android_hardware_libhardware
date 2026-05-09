@@ -33,6 +33,9 @@ static int nfc_open(const hw_module_t* module, const char* name,
         hw_device_t** device) {
     if (strcmp(name, NFC_PN544_CONTROLLER) == 0) {
         nfc_pn544_device_t *dev = calloc(1, sizeof(nfc_pn544_device_t));
+        if (dev == NULL) {
+            return -ENOMEM;
+        }
 
         dev->common.tag = HARDWARE_DEVICE_TAG;
         dev->common.version = 0;
